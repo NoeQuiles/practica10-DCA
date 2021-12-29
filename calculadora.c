@@ -15,7 +15,7 @@ int main() {
     char op;
     int valido = 1;
 
-    printf("Ingrese operacion: ");
+    printf("Ingrese operacion: ")
     scanf("%c", &op);
     printf("Ingrese x: ");
     scanf("%f", &x);
