@@ -13,9 +13,10 @@ float potencia(float base, int exponente) {
 int main() {
     float x, y, resultado;
     char op;
+    char option;
     int valido = 1;
 
-    printf("Ingrese operacion: ")
+    printf("Ingrese operacion: ");
     scanf("%c", &op);
     printf("Ingrese x: ");
     scanf("%f", &x);
